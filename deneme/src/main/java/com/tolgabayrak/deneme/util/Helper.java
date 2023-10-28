@@ -2,10 +2,7 @@ package com.tolgabayrak.deneme.util;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
-
-
 import java.util.Date;
 
 @Component

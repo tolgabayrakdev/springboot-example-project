@@ -17,12 +17,10 @@ public class EmployeeService {
 
     private final ModelMapper modelMapper;
 
-    private final Helper helper;
 
-    public EmployeeService(EmployeeRepository employeeRepository, ModelMapper modelMapper, Helper helper) {
+    public EmployeeService(EmployeeRepository employeeRepository, ModelMapper modelMapper) {
         this.employeeRepository = employeeRepository;
         this.modelMapper = modelMapper;
-        this.helper = helper;
     }
 
     public Employee create(Employee employeeData){
